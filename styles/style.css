@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
-body {
-  .mulish-font {
-    font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+
+.mulish-font {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 /* Shared Style */
 .display-flex {
   display: flex;
+}
+#primary-color {
+  color: rgb(255, 84, 0);
 }
 
 /* Header Style */
@@ -19,9 +21,12 @@ body {
 }
 .navbar {
   justify-content: space-between;
+  align-items: center;
   text-align: center;
 }
 .nav-text {
+  text-align: center;
+  align-items: center;
   gap: 5px;
 }
 .brand {
@@ -31,6 +36,8 @@ body {
 .nav-links a {
   text-decoration: none;
   list-style: none;
+  font-size: 1.02rem;
+  color: rgb(66, 66, 71);
 }
 .nav-links li {
   list-style: none;
