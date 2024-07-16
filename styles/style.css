@@ -13,6 +13,19 @@
 #primary-color {
   color: rgb(255, 84, 0);
 }
+.primary-btn {
+  width: 174px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+
+  color: rgb(255, 255, 255);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
 
 /* Header Style */
 .navbar {
@@ -42,4 +55,54 @@
 .nav-links li {
   list-style: none;
   margin-left: 40px;
+}
+/* Banner section styles */
+.banner-section {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8),
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/banner.png");
+  border-radius: 16px;
+  width: 1170px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+.banner-title {
+  font-size: 60px;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.banner-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.banner-input {
+  width: 800px;
+  height: 84px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.banner-input input {
+  width: 174px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  margin-right: 20px;
+
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-weight: 400;
 }
