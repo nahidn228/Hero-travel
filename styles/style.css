@@ -6,6 +6,11 @@
   font-weight: 400;
   font-style: normal;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 /* Shared Style */
 .display-flex {
   display: flex;
@@ -14,47 +19,52 @@
   color: rgb(255, 84, 0);
 }
 .primary-btn {
-  width: 174px;
-  height: 52px;
+  width: 150px;
+  height: 40px;
   border: none;
   border-radius: 8px;
   background: rgb(255, 84, 0);
-
   color: rgb(255, 255, 255);
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   text-align: center;
+}
+body {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /* Header Style */
 .navbar {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-.navbar {
+  max-width: 100%;
+  margin: 50px auto;
   justify-content: space-between;
   align-items: center;
   text-align: center;
 }
+
 .nav-text {
   text-align: center;
   align-items: center;
   gap: 5px;
 }
 .brand {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 800;
 }
 .nav-links a {
   text-decoration: none;
   list-style: none;
-  font-size: 1.02rem;
+  font-size: 1rem;
   color: rgb(66, 66, 71);
 }
 .nav-links li {
   list-style: none;
   margin-left: 40px;
+}
+.ham-burger {
+  display: none;
 }
 /* Banner section styles */
 .banner-section {
@@ -65,8 +75,8 @@
     ),
     url("../Images/banner.png");
   border-radius: 16px;
-  width: 1170px;
-  height: 500px;
+  width: 100%;
+  height: 450px;
   margin: 0 auto;
   text-align: center;
   flex-direction: column;
@@ -75,18 +85,18 @@
   color: rgb(255, 255, 255);
 }
 .banner-title {
-  font-size: 60px;
+  font-size: 3.5rem;
   font-weight: 800;
   margin: 0;
   margin-bottom: 24px;
 }
 .banner-subtitle {
-  font-size: 16px;
+  font-size: 0.9rem;
   font-weight: 400;
   margin-bottom: 40px;
 }
 .banner-input {
-  width: 800px;
+  max-width: 80%;
   height: 84px;
   justify-content: center;
   align-items: center;
@@ -94,15 +104,54 @@
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
 }
-.banner-input input {
-  width: 174px;
-  height: 52px;
+.banner-input input,
+select {
+  width: 150px;
+  height: 40px;
   border: none;
   border-radius: 8px;
   background: rgb(255, 255, 255);
   margin-right: 20px;
-
   color: rgba(19, 19, 24, 0.5);
   font-size: 16px;
   font-weight: 400;
+  padding: 10px;
+}
+#when {
+  background: rgb(255, 255, 255);
+}
+
+/* Our Popular Tours styles start */
+
+.tour-section {
+  margin: 100px 0;
+  align-items: center;
+  gap: 50px;
+}
+.tour-section-text,
+.tour-section-img {
+  width: 50%;
+}
+.tour-section-img img {
+  width: 100%;
+}
+.tour-section-title {
+  color: rgb(19, 19, 24);
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.tour-text {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 24px 0;
+}
+.tour-text-li {
+  margin: 16px 0;
+  margin-left: 20px;
+}
+#tour-btn {
+  margin-top: 20px;
+  font-size: 1.1rem;
 }

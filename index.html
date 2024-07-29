@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hero Travel</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
     <script
       src="https://kit.fontawesome.com/18c0a8d05d.js"
       crossorigin="anonymous"
@@ -28,6 +29,9 @@
           <li><a href="" class="nav-link">Blog</a></li>
           <li><a href="" class="nav-link">Contact</a></li>
         </ul>
+        <div class="ham-burger">
+          <i class="fa-solid fa-burger"></i>
+        </div>
       </nav>
       <section class="banner-section display-flex">
         <h3 class="banner-title">Explore Your Travel</h3>
@@ -38,18 +42,64 @@
         </p>
         <div class="banner-input display-flex">
           <input type="text" name="" id="" placeholder="Where go" />
-          <input type="datetime" name="" id="" placeholder="When" />
-          <input type="text" name="" id="" placeholder="Select type" />
+          <select name="when" id="when" placeholder="When">
+            <option value="When">When</option>
+            <option value="Where">Day</option>
+            <option value="Where">Night</option>
+          </select>
+          <select name="when" id="when" placeholder="Select type">
+            <option value="When">Select type</option>
+            <option value="When">Low</option>
+            <option value="When">High</option>
+            <option value="Premium">Premium</option>
+          </select>
+
           <!-- <select name="When" id="When" placeholder="When">
             <option value="When">When</option>
           </select> -->
-          <button class="primary-btn">
+          <button class="primary-btn" id="banner-btn">
             <i class="fa-solid fa-magnifying-glass"></i> Find Now
           </button>
         </div>
       </section>
     </header>
-    <main></main>
+    <main>
+      <!-- Our Popular Tours section start -->
+      <section class="tour-section display-flex">
+        <div class="tour-section-text">
+          <h3 class="tour-section-title">Our Popular Tours</h3>
+          <p class="tour-text">
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+            odio sit massa. Sodales dictumst nec nibh pellentesque.
+          </p>
+          <ul class="tour-text">
+            <li class="tour-text-li">
+              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+              nullam odio neque diam. Sociis erat at .
+            </li>
+            <li class="tour-text-li">
+              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+              nullam odio neque diam. Sociis erat at .
+            </li>
+            <li class="tour-text-li">
+              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+              nullam odio neque diam. Sociis erat at .
+            </li>
+            <p class="tour-text">
+              Amet consectetur. Vulputate commodo felis molestie risus ornare
+              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+              Habitant adipiscing risus natoque aliquet. Id bibendum nunc
+              senectus semper tincidunt.
+            </p>
+          </ul>
+
+          <button id="tour-btn" class="primary-btn">Read More</button>
+        </div>
+        <div class="tour-section-img">
+          <img src="Images/Rectangle4.png" alt="" />
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>

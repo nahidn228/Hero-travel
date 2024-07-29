@@ -1,0 +1,67 @@
+/* small device */
+@media screen and (max-width: 576px) {
+  .navbar {
+    max-width: 95%;
+    margin-bottom: 20px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .ham-burger {
+    display: block;
+    font-size: 1.5rem;
+  }
+  .nav-text {
+    width: 50%;
+  }
+  .brand {
+    font-size: 1.5rem;
+  }
+
+  .banner-section {
+    max-width: 95%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .banner-subtitle {
+    font-size: 0.7rem;
+  }
+  .banner-subtitle br {
+    display: none;
+  }
+  .banner-input {
+    width: 60%;
+    margin: 0 auto;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  .banner-input input,
+  select {
+    height: 2.8rem;
+    margin: 0;
+  }
+  #banner-btn {
+    width: 95%;
+    height: 2.8rem;
+  }
+
+  .tour-section {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .tour-section-text,
+  .tour-section-img {
+    width: 95%;
+  }
+
+  .tour-section-text li {
+    margin-top: 16px;
+    padding-left: 10px;
+  }
+}
