@@ -179,30 +179,77 @@ select {
   margin-top: 45px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
+  gap: 1rem;
   height: 300px;
   border: 0px;
 }
 .grid1-img1 {
   width: 100%;
   background-image: url(../Images/Rectangle5.png);
-  background-color: rgba(19, 19, 24, 0.2);
+  background-color: rgba(19, 19, 24, 0.5);
   border-radius: 20px;
 }
-.grid1-img-text{
+.grid-img-text{
   position: relative;
   top: 45%;
   color: rgb(255, 255, 255);
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 
 .grid1-img2 {
   width: 100%;
   background-image: url(../Images/Rectangle\ 8.png);
-  background-color: rgba(19, 19, 24, 0.2);
+  background-color: rgba(19, 19, 24, 0.5);
   border-radius: 20px;
 }
 
 
 /* Destination grid-2 */
+.destination-grid2 {
+  margin: 1rem 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 1.3fr;
+  gap: 1rem;
+  height: 280px;
+  border: 0px;
+}
+.grid2-img1 {
+  background-image: url(../Images/Rectangle6.png);
+  background-color: rgba(19, 19, 24, 0.5);
+  border-radius: 20px;
+}
+.grid2-img2 {
+
+  background-image: url(../Images/Rectangle7.png);
+  background-color: rgba(19, 19, 24, 0.5);
+  border-radius: 20px;
+}
+.grid2-img3 {
+  background-image: url(../Images/Rectangle9.png);
+  background-color: rgba(19, 19, 24, 0.5);
+  border-radius: 20px;
+}
+
+/* Destination grid-3 */
+
+.destination-grid3 {
+  margin: 1rem 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 1rem;
+  height: 280px;
+  border: 0px;
+}
+.grid3-img1 {
+  background-image: url(../Images/Rectangle11.png);
+  background-color: rgba(19, 19, 24, 0.5);
+  border-radius: 20px;
+}
+.grid3-img2 {
+  background-image: url(../Images/Rectangle10.png);
+  background-color: rgba(19, 19, 24, 0.5);
+  border-radius: 20px;
+}
