@@ -64,4 +64,49 @@
     margin-top: 16px;
     padding-left: 10px;
   }
+  .destination-grid1,
+  .destination-grid2,
+  .destination-grid3 {
+    position: relative;
+    width: 95%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+  }
+  .grid1-img1-text {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+  }
+  .grid1-img2-text {
+    position: absolute;
+    top: 72%;
+    left: 40%;
+  }
+  .grid2-img1-text {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+  }
+  .grid2-img2-text {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+  }
+  .grid2-img3-text {
+    position: absolute;
+    top: 83%;
+    left: 40%;
+  }
+  .grid3-img1-text {
+    position: absolute;
+    top: 47%;
+    left: 35%;
+  }
+  .grid3-img2-text {
+    position: absolute;
+    top: 150%;
+    left: 35%;
+  }
 }

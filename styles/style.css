@@ -166,6 +166,7 @@ select {
 .destination-title {
   font-size: 2rem;
   font-weight: 800;
+  margin-bottom: 1rem;
 }
 
 .destination-subtitle {
@@ -175,66 +176,73 @@ select {
 }
 
 /* Destination grid-1 */
-.destination-grid1 {
-  margin-top: 45px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  height: 300px;
-  border: 0px;
-}
-.grid1-img1 {
+.destination-img img {
+  opacity: 2;
   width: 100%;
-  background-image: url(../Images/Rectangle5.png);
-  background-color: rgba(19, 19, 24, 0.5);
+  height: 280px;
   border-radius: 20px;
+  opacity: 2;
 }
-.grid-img-text{
-  position: relative;
-  top: 45%;
+.destination-img p {
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
   font-weight: 800;
 }
-
-.grid1-img2 {
-  width: 100%;
-  background-image: url(../Images/Rectangle\ 8.png);
-  background-color: rgba(19, 19, 24, 0.5);
-  border-radius: 20px;
+.destination-grid1 {
+  position: relative;
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  border: 0px;
 }
 
+.grid1-img1-text {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  opacity: 3;
+}
+.grid1-img2-text {
+  position: absolute;
+  top: 45%;
+  left: 70%;
+  opacity: 3;
+}
 
 /* Destination grid-2 */
 .destination-grid2 {
+  position: relative;
   margin: 1rem 0px;
-  width: 100%;
   display: grid;
   grid-template-columns: 1.5fr 2fr 1.3fr;
   gap: 1rem;
-  height: 280px;
   border: 0px;
 }
-.grid2-img1 {
-  background-image: url(../Images/Rectangle6.png);
-  background-color: rgba(19, 19, 24, 0.5);
-  border-radius: 20px;
+.grid2-img1-text {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  opacity: 3;
 }
-.grid2-img2 {
+.grid2-img2-text {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  opacity: 3;
+}
+.grid2-img3-text {
+  position: absolute;
+  top: 45%;
+  left: 82%;
+  opacity: 3;
+}
 
-  background-image: url(../Images/Rectangle7.png);
-  background-color: rgba(19, 19, 24, 0.5);
-  border-radius: 20px;
-}
-.grid2-img3 {
-  background-image: url(../Images/Rectangle9.png);
-  background-color: rgba(19, 19, 24, 0.5);
-  border-radius: 20px;
-}
 
 /* Destination grid-3 */
 
 .destination-grid3 {
+  position: relative;
   margin: 1rem 0px;
   width: 100%;
   display: grid;
@@ -243,13 +251,15 @@ select {
   height: 280px;
   border: 0px;
 }
-.grid3-img1 {
-  background-image: url(../Images/Rectangle11.png);
-  background-color: rgba(19, 19, 24, 0.5);
-  border-radius: 20px;
+.grid3-img1-text {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  opacity: 3;
 }
-.grid3-img2 {
-  background-image: url(../Images/Rectangle10.png);
-  background-color: rgba(19, 19, 24, 0.5);
-  border-radius: 20px;
+.grid3-img2-text {
+  position: absolute;
+  top: 45%;
+  left: 65%;
+  opacity: 3;
 }
