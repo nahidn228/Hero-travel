@@ -332,8 +332,6 @@ select {
 /* Deals & Discounts styles */
 .deal-section {
   margin: 100px auto;
-}
-.deal-section-text {
   text-align: center;
 }
 .deal-title {
@@ -402,7 +400,7 @@ select {
   color: rgb(255, 84, 0);
   font-weight: 800;
 }
-.fa-location-dot{
+.fa-location-dot {
   margin-left: 24px;
 }
 
@@ -424,7 +422,46 @@ select {
   font-weight: 800;
   margin-bottom: 16px;
 }
-#card-btn{
+#card-btn {
   width: 130px;
   font-size: 0.9rem;
+}
+#packages-btn {
+  width: 160px;
+  margin-top: 20px;
+}
+#deal-card {
+  text-align: left;
+}
+
+/* A Simple Perfect Place Section styles */
+
+.place-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 100px;
+}
+.place-section-title {
+  color: rgb(19, 19, 24);
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.place-section-subtitle {
+  color: rgb(90, 90, 93);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.place-ul li {
+  color: rgb(19, 19, 24);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.place-section-video iframe {
+  border-radius: 16px;
 }
