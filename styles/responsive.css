@@ -64,15 +64,16 @@
     margin-top: 16px;
     padding-left: 10px;
   }
+ 
   .destination-grid1,
   .destination-grid2,
   .destination-grid3 {
     position: relative;
     width: 95%;
+    height: auto;
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 1fr;
-    
   }
   .grid1-img1-text {
     position: absolute;
@@ -101,12 +102,24 @@
   }
   .grid3-img1-text {
     position: absolute;
-    top: 47%;
+    top: 25%;
     left: 35%;
   }
   .grid3-img2-text {
     position: absolute;
-    top: 150%;
+    top: 75%;
     left: 35%;
+  }
+  .chooseUs-section{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .chooseUs-title{
+    font-size: 1.5rem;
+  }
+  .assets-grid1,
+  .assets-grid2 {
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 }

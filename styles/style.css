@@ -113,7 +113,7 @@ select {
   background: rgb(255, 255, 255);
   margin-right: 20px;
   color: rgba(19, 19, 24, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   padding: 10px;
 }
@@ -238,7 +238,6 @@ select {
   opacity: 3;
 }
 
-
 /* Destination grid-3 */
 
 .destination-grid3 {
@@ -262,4 +261,71 @@ select {
   top: 45%;
   left: 65%;
   opacity: 3;
+}
+
+/* Why Choose Us styles */
+.chooseUs-text {
+  margin-bottom: 100px;
+}
+.chooseUs-text {
+  text-align: center;
+}
+.chooseUs-title {
+  color: rgb(19, 19, 24);
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.chooseUs-subtitle {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.assets-grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.grid1 {
+  background: rgba(251, 181, 99, 0.05);
+  padding: 32px;
+  border-radius: 20px;
+}
+.grid2 {
+  background-color: #f4fdff;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+
+.chooseUs-assets img {
+  height: 64px;
+  width: 64px;
+  margin-bottom: 32px;
+}
+.asset-title {
+  color: rgb(19, 19, 24);
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.asset-subtitle {
+  color: rgb(90, 90, 93);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 16px;
+  margin-bottom: 50px;
+}
+
+.assets-grid2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 50px;
+  margin-top: 20px;
+}
+.grid3 {
+  background: rgba(233, 68, 68, 0.05);
+  padding: 32px;
+  border-radius: 20px;
 }
