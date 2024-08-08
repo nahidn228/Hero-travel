@@ -126,7 +126,7 @@
   .deal-section-card1,
   .deal-section-card2,
   .deal-section-card3 {
-    width: 100%;
+    width: 95%;
     height: auto;
     display: block;
     padding-top: 25%;
@@ -151,25 +151,39 @@
    margin: 0 auto;
   }
   .place-section-video iframe {
-    width: 98%;
+    width: 95%;
   }
 
   .newsletter-section {
     width: 95%;
-    margin: 0 auto;
+    margin: 50px auto;
     height: auto;
     grid-template-columns: 1fr;
     
   }
   .newsletter-pic{
     height: 350px;
-    width: 98%;
+    width: 95%;
+    margin: 20px auto;
   }
+
   .newsletter-pic-btn {
     width: 230px;
     height: 100px;
     bottom: -57%;
     left: 37%;
     
+  }
+
+  footer {
+    width: 95%;
+    margin: 50px auto;
+    
+  }
+  .footer-section {
+    padding: 50px 20px;
+  }
+  #footer-brand {
+    font-size: 1.2rem;
   }
 }

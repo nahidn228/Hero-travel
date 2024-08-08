@@ -519,7 +519,7 @@ select {
   text-align: center;
   background-color: rgb(255, 84, 0);
   border-radius: 16px;
-  padding:  20px;
+  padding: 20px;
   bottom: -62%;
   left: 40%;
   transform: rotate(-25deg);
@@ -533,4 +533,40 @@ select {
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
   font-weight: 800;
+}
+
+/* Footer Styles */
+footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(19, 19, 24, 0.05);
+  margin-top: 80px;
+  border-radius: 16px;
+}
+.footer-section {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 100px 250px;
+}
+#footer-brand {
+  font-size: 1.5rem;
+}
+.footer-text {
+  color: rgb(90, 90, 93);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.scocial-icon a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+.footer-section hr{
+  width: 100%;
+  border: 1px solid rgba(19, 19, 24, 0.1);
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
