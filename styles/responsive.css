@@ -153,4 +153,23 @@
   .place-section-video iframe {
     width: 98%;
   }
+
+  .newsletter-section {
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+    grid-template-columns: 1fr;
+    
+  }
+  .newsletter-pic{
+    height: 350px;
+    width: 98%;
+  }
+  .newsletter-pic-btn {
+    width: 230px;
+    height: 100px;
+    bottom: -57%;
+    left: 37%;
+    
+  }
 }
