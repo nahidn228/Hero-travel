@@ -144,11 +144,10 @@
     font-size: 0.9rem;
   }
 
-
-  .place-section{
+  .place-section {
     grid-template-columns: 1fr;
-   width: 95%;
-   margin: 0 auto;
+    width: 95%;
+    margin: 0 auto;
   }
   .place-section-video iframe {
     width: 95%;
@@ -159,9 +158,8 @@
     margin: 50px auto;
     height: auto;
     grid-template-columns: 1fr;
-    
   }
-  .newsletter-pic{
+  .newsletter-pic {
     height: 350px;
     width: 95%;
     margin: 20px auto;
@@ -172,18 +170,19 @@
     height: 100px;
     bottom: -57%;
     left: 37%;
-    
   }
 
   footer {
     width: 95%;
     margin: 50px auto;
-    
   }
   .footer-section {
     padding: 50px 20px;
   }
   #footer-brand {
     font-size: 1.2rem;
+  }
+  .footer-section hr {
+    width: 95%;
   }
 }
