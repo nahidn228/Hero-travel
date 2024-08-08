@@ -56,7 +56,8 @@
     gap: 30px;
   }
   .tour-section-text,
-  .tour-section-img {
+  .tour-section-img,
+  .deal-section {
     width: 95%;
   }
 
@@ -64,7 +65,7 @@
     margin-top: 16px;
     padding-left: 10px;
   }
- 
+
   .destination-grid1,
   .destination-grid2,
   .destination-grid3 {
@@ -110,16 +111,36 @@
     top: 75%;
     left: 35%;
   }
-  .chooseUs-section{
+  .chooseUs-section {
     width: 95%;
     margin: 0 auto;
   }
-  .chooseUs-title{
+  .chooseUs-title {
     font-size: 1.5rem;
   }
   .assets-grid1,
   .assets-grid2 {
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+  .deal-section-card1,
+  .deal-section-card2,
+  .deal-section-card3 {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 30%;
+    padding-bottom: 10px;
+  }
+
+  .deal-card-info {
+    margin: 50px 50px 10px 50px;
+    padding: 20px 30px 20px 20px;
+  }
+  .deal-card-heading {
+    display: block;
+    gap: 20px;
+    color: rgb(90, 90, 93);
+    font-size: 0.9rem;
   }
 }

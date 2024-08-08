@@ -25,10 +25,10 @@
   border-radius: 8px;
   background: rgb(255, 84, 0);
   color: rgb(255, 255, 255);
-  font-family: Mulish;
   font-size: 1rem;
   font-weight: 700;
   text-align: center;
+  cursor: pointer;
 }
 body {
   max-width: 1000px;
@@ -298,7 +298,6 @@ select {
   border-radius: 20px;
 }
 
-
 .chooseUs-assets img {
   height: 64px;
   width: 64px;
@@ -328,4 +327,104 @@ select {
   background: rgba(233, 68, 68, 0.05);
   padding: 32px;
   border-radius: 20px;
+}
+
+/* Deals & Discounts styles */
+.deal-section {
+  margin: 100px auto;
+}
+.deal-section-text {
+  text-align: center;
+}
+.deal-title {
+  color: rgb(19, 19, 24);
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.deal-subtitle {
+  color: rgb(90, 90, 93);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+/* deal section card */
+
+.deal-section-card1 {
+  background-image: url(../Images/Group39.png);
+  border-radius: 16px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+}
+.deal-section-card2 {
+  background-image: url(../Images/Group40.png);
+  border-radius: 16px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+.deal-section-card3 {
+  background-image: url(../Images/Group39.png);
+  border-radius: 16px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+}
+.deal-card-info {
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 50px;
+  padding: 50px 70px 50px 30px;
+}
+
+.deal-card-heading {
+  display: flex;
+  gap: 24px;
+  color: rgb(90, 90, 93);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.fa-clock,
+.fa-users,
+.fa-location-dot {
+  color: rgb(255, 84, 0);
+  font-weight: 800;
+}
+.fa-location-dot{
+  margin-left: 24px;
+}
+
+.deal-card-title {
+  color: rgb(19, 19, 24);
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 16px auto;
+}
+.deal-card-subtitle {
+  color: rgb(90, 90, 93);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.deal-card-price {
+  font-size: 1rem;
+  color: rgb(255, 84, 0);
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+#card-btn{
+  width: 130px;
+  font-size: 0.9rem;
 }
